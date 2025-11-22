@@ -1,0 +1,736 @@
+2025-11-20 22:23:27,453 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-20 22:23:29,375 - WARNING - Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-11-20 22:23:29,375 - ERROR - Error creating sheets: <HttpError 403 when requesting https://sheets.googleapis.com/v4/spreadsheets/1H_lgg_B7G5zpYnPnbPLNZRKwZNXfX1AW1hmHcRfkKgM?alt=json returned "The caller does not have permission". Details: "The caller does not have permission">
+2025-11-20 22:23:30,228 - WARNING - Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-11-20 22:23:30,228 - ERROR - Error updating headers: <HttpError 403 when requesting https://sheets.googleapis.com/v4/spreadsheets/1H_lgg_B7G5zpYnPnbPLNZRKwZNXfX1AW1hmHcRfkKgM/values/Data%21A1?valueInputOption=RAW&alt=json returned "The caller does not have permission". Details: "The caller does not have permission">
+2025-11-20 22:23:30,228 - INFO - Google Sheets connection established
+2025-11-20 22:23:30,229 - INFO - No CSV files found in input folder
+2025-11-20 22:24:34,851 - INFO - Processing file: ./input/guest_feedback.csv
+2025-11-20 22:24:34,853 - ERROR - Batch processing error: CSV must contain 'claim_id' and 'note_text' columns
+2025-11-20 22:24:52,395 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-20 22:24:54,254 - WARNING - Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-11-20 22:24:54,254 - ERROR - Error creating sheets: <HttpError 403 when requesting https://sheets.googleapis.com/v4/spreadsheets/1H_lgg_B7G5zpYnPnbPLNZRKwZNXfX1AW1hmHcRfkKgM?alt=json returned "The caller does not have permission". Details: "The caller does not have permission">
+2025-11-20 22:24:55,146 - WARNING - Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-11-20 22:24:55,146 - ERROR - Error updating headers: <HttpError 403 when requesting https://sheets.googleapis.com/v4/spreadsheets/1H_lgg_B7G5zpYnPnbPLNZRKwZNXfX1AW1hmHcRfkKgM/values/Data%21A1?valueInputOption=RAW&alt=json returned "The caller does not have permission". Details: "The caller does not have permission">
+2025-11-20 22:24:55,146 - INFO - Google Sheets connection established
+2025-11-20 22:24:55,146 - INFO - Processing file: input/guest_feedback.csv
+2025-11-20 22:24:55,149 - ERROR - Batch processing error: CSV must contain 'claim_id' and 'note_text' columns
+2025-11-20 22:26:21,780 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-20 22:26:24,376 - INFO - Created sheets: ['Data', 'Validator', 'Lead Review', 'Config', 'Audit Log']
+2025-11-20 22:26:27,222 - INFO - Headers updated for Data
+2025-11-20 22:26:27,222 - INFO - Google Sheets connection established
+2025-11-20 22:26:27,222 - INFO - Processing file: input/guest_feedback.csv
+2025-11-20 22:26:27,225 - ERROR - Batch processing error: CSV must contain 'claim_id' and 'note_text' columns
+2025-11-20 22:48:24,387 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-20 22:48:24,569 - INFO - Google Sheets connection established
+2025-11-20 22:48:28,220 - INFO - Data sheet headers configured
+2025-11-20 22:48:31,154 - INFO - Starting processing: input/guest_feedback.csv
+2025-11-20 22:48:31,155 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-20 22:48:31,155 - INFO - Using ID column: claim_id
+2025-11-20 22:48:31,156 - INFO - Using text column: note_text (avg length: 454)
+2025-11-20 22:48:31,156 - INFO - Processing 1/3: CLM-2024-001
+2025-11-20 22:48:32,021 - ERROR - API error (attempt 1): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:34,204 - ERROR - API error (attempt 2): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:36,382 - ERROR - API error (attempt 3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:38,555 - ERROR - API error (attempt 4): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:40,483 - INFO - Processing 2/3: CLM-2024-002
+2025-11-20 22:48:40,652 - ERROR - API error (attempt 1): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:42,834 - ERROR - API error (attempt 2): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:45,013 - ERROR - API error (attempt 3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:47,196 - ERROR - API error (attempt 4): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:48,979 - INFO - Processing 3/3: CLM-2024-003
+2025-11-20 22:48:49,153 - ERROR - API error (attempt 1): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:51,331 - ERROR - API error (attempt 2): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:53,499 - ERROR - API error (attempt 3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:55,676 - ERROR - API error (attempt 4): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:48:56,547 - INFO - Processing complete: ./output/processed_20251120_224856.csv
+2025-11-20 22:48:56,547 - INFO - Stats: {'processed': 0, 'failed': 3, 'api_calls': 12, 'sheets_updates': 3}
+2025-11-20 22:49:57,553 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-20 22:49:57,732 - INFO - Google Sheets connection established
+2025-11-20 22:50:01,940 - INFO - Data sheet headers configured
+2025-11-20 22:50:13,755 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-20 22:50:13,931 - INFO - Google Sheets connection established
+2025-11-20 22:50:17,793 - INFO - Data sheet headers configured
+2025-11-20 22:50:18,855 - INFO - Starting processing: input/sample_data.csv
+2025-11-20 22:50:18,857 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-20 22:50:18,857 - INFO - Using ID column: claim_id
+2025-11-20 22:50:18,858 - INFO - Using text column: note_text (avg length: 454)
+2025-11-20 22:50:18,858 - INFO - Processing 1/3: CLM-2024-001
+2025-11-20 22:50:19,776 - ERROR - API error (attempt 1): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:21,970 - ERROR - API error (attempt 2): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:24,161 - ERROR - API error (attempt 3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:26,350 - ERROR - API error (attempt 4): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:28,194 - INFO - Processing 2/3: CLM-2024-002
+2025-11-20 22:50:28,372 - ERROR - API error (attempt 1): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:30,560 - ERROR - API error (attempt 2): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:32,756 - ERROR - API error (attempt 3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:34,941 - ERROR - API error (attempt 4): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:36,710 - INFO - Processing 3/3: CLM-2024-003
+2025-11-20 22:50:36,893 - ERROR - API error (attempt 1): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:39,081 - ERROR - API error (attempt 2): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:41,273 - ERROR - API error (attempt 3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:43,455 - ERROR - API error (attempt 4): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:50:44,266 - INFO - Processing complete: ./output/processed_20251120_225044.csv
+2025-11-20 22:50:44,266 - INFO - Stats: {'processed': 0, 'failed': 3, 'api_calls': 12, 'sheets_updates': 3}
+2025-11-20 22:53:39,327 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-20 22:53:39,501 - INFO - Google Sheets connection established
+2025-11-20 22:53:41,788 - INFO - Data sheet headers configured
+2025-11-20 22:53:41,788 - INFO - Available Gemini models:
+2025-11-20 22:53:43,211 - WARNING - Could not list models: 'Model' object has no attribute 'supported_methods'
+2025-11-20 22:53:43,211 - INFO - Using Gemini model: gemini-1.5-flash
+2025-11-20 22:54:05,389 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-20 22:54:05,565 - INFO - Google Sheets connection established
+2025-11-20 22:54:09,074 - INFO - Data sheet headers configured
+2025-11-20 22:54:09,074 - INFO - Available Gemini models:
+2025-11-20 22:54:09,491 - WARNING - Could not list models: 'Model' object has no attribute 'supported_methods'
+2025-11-20 22:54:09,491 - INFO - Using Gemini model: gemini-1.5-flash
+2025-11-20 22:54:10,450 - INFO - Starting processing: input/sample_data.csv
+2025-11-20 22:54:10,452 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-20 22:54:10,452 - INFO - Using ID column: claim_id
+2025-11-20 22:54:10,453 - INFO - Using text column: note_text (avg length: 454)
+2025-11-20 22:54:10,453 - INFO - Processing 1/3: CLM-2024-001
+2025-11-20 22:54:10,853 - ERROR - API error (attempt 1): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:13,035 - ERROR - API error (attempt 2): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:15,206 - ERROR - API error (attempt 3): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:17,387 - ERROR - API error (attempt 4): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:19,216 - INFO - Processing 2/3: CLM-2024-002
+2025-11-20 22:54:19,388 - ERROR - API error (attempt 1): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:21,563 - ERROR - API error (attempt 2): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:23,736 - ERROR - API error (attempt 3): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:25,910 - ERROR - API error (attempt 4): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:27,761 - INFO - Processing 3/3: CLM-2024-003
+2025-11-20 22:54:27,921 - ERROR - API error (attempt 1): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:30,099 - ERROR - API error (attempt 2): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:32,273 - ERROR - API error (attempt 3): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:34,448 - ERROR - API error (attempt 4): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-20 22:54:35,301 - INFO - Processing complete: ./output/processed_20251120_225435.csv
+2025-11-20 22:54:35,301 - INFO - Stats: {'processed': 0, 'failed': 3, 'api_calls': 12, 'sheets_updates': 3}
+2025-11-20 23:00:55,679 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-20 23:00:55,851 - INFO - Google Sheets connection established
+2025-11-20 23:00:59,683 - INFO - Data sheet headers configured
+2025-11-20 23:00:59,683 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-20 23:01:00,529 - INFO - Starting processing: input/sample_data.csv
+2025-11-20 23:01:00,530 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-20 23:01:00,530 - INFO - Using ID column: claim_id
+2025-11-20 23:01:00,531 - INFO - Using text column: note_text (avg length: 454)
+2025-11-20 23:01:00,531 - INFO - Processing 1/3: CLM-2024-001
+2025-11-20 23:01:12,584 - INFO - Successfully parsed AI response
+2025-11-20 23:01:14,478 - INFO - Processing 2/3: CLM-2024-002
+2025-11-20 23:01:19,238 - INFO - Successfully parsed AI response
+2025-11-20 23:01:21,094 - INFO - Processing 3/3: CLM-2024-003
+2025-11-20 23:01:25,704 - INFO - Successfully parsed AI response
+2025-11-20 23:01:26,467 - INFO - Processing complete: ./output/processed_20251120_230126.csv
+2025-11-21 18:26:43,707 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-21 18:26:43,893 - INFO - Google Sheets connection established
+2025-11-21 18:26:47,998 - INFO - Data sheet headers configured
+2025-11-21 18:26:47,998 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-21 18:26:49,985 - INFO - Starting processing: input/sample_data.csv
+2025-11-21 18:26:49,991 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-21 18:26:49,991 - INFO - Using ID column: claim_id
+2025-11-21 18:26:50,001 - INFO - Using text column: note_text (avg length: 454)
+2025-11-21 18:26:50,002 - INFO - Processing 1/3: CLM-2024-001
+2025-11-21 18:26:57,720 - INFO - Successfully parsed AI response
+2025-11-21 18:26:59,639 - INFO - Processing 2/3: CLM-2024-002
+2025-11-21 18:27:03,346 - INFO - Successfully parsed AI response
+2025-11-21 18:27:05,191 - INFO - Processing 3/3: CLM-2024-003
+2025-11-21 18:27:10,854 - INFO - Successfully parsed AI response
+2025-11-21 18:27:11,672 - INFO - Processing complete: ./output/processed_20251121_182711.csv
+2025-11-21 18:32:23,844 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-21 18:32:24,018 - INFO - Google Sheets connection established
+2025-11-21 18:32:28,354 - INFO - Data sheet headers configured
+2025-11-21 18:32:28,354 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-21 18:32:31,745 - INFO - Starting processing: input/sample_data.csv
+2025-11-21 18:32:31,747 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-21 18:32:31,747 - INFO - Using ID column: claim_id
+2025-11-21 18:32:31,748 - INFO - Using text column: note_text (avg length: 454)
+2025-11-21 18:32:31,748 - INFO - Processing 1/3: CLM-2024-001
+2025-11-21 18:32:37,904 - INFO - Successfully parsed AI response
+2025-11-21 18:32:39,744 - INFO - Processing 2/3: CLM-2024-002
+2025-11-21 18:32:44,363 - INFO - Successfully parsed AI response
+2025-11-21 18:32:46,158 - INFO - Processing 3/3: CLM-2024-003
+2025-11-21 18:32:54,265 - INFO - Successfully parsed AI response
+2025-11-21 18:32:55,129 - INFO - Processing complete: ./output/processed_20251121_183255.csv
+2025-11-21 19:06:15,775 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-21 19:06:15,954 - INFO - Google Sheets connection established
+2025-11-21 19:06:20,433 - INFO - Data sheet headers configured
+2025-11-21 19:06:20,433 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-21 19:06:22,454 - INFO - Starting processing: input/sample_data.csv
+2025-11-21 19:06:22,456 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-21 19:06:22,456 - INFO - Using ID column: claim_id
+2025-11-21 19:06:22,456 - INFO - Using text column: note_text (avg length: 454)
+2025-11-21 19:06:22,457 - INFO - Processing 1/3: CLM-2024-001
+2025-11-21 19:06:32,527 - INFO - Successfully parsed AI response
+2025-11-21 19:06:34,353 - INFO - Processing 2/3: CLM-2024-002
+2025-11-21 19:06:37,994 - INFO - Successfully parsed AI response
+2025-11-21 19:06:43,207 - INFO - Processing 3/3: CLM-2024-003
+2025-11-21 19:06:49,923 - INFO - Successfully parsed AI response
+2025-11-21 19:06:50,722 - INFO - Processing complete: ./output/processed_20251121_190650.csv
+2025-11-21 22:47:39,459 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-21 22:47:39,648 - INFO - Google Sheets connection established
+2025-11-21 22:47:43,881 - INFO - Data sheet headers configured
+2025-11-21 22:47:43,881 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-21 22:49:01,987 - INFO - Starting processing: input/sample_data.csv
+2025-11-21 22:49:01,989 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-21 22:49:01,989 - INFO - Using ID column: claim_id
+2025-11-21 22:49:01,990 - INFO - Using text column: note_text (avg length: 454)
+2025-11-21 22:49:01,990 - INFO - Processing 1/3: CLM-2024-001
+2025-11-21 22:49:09,946 - INFO - Successfully parsed AI response
+2025-11-21 22:49:11,821 - INFO - Processing 2/3: CLM-2024-002
+2025-11-21 22:49:17,217 - INFO - Successfully parsed AI response
+2025-11-21 22:49:19,054 - INFO - Processing 3/3: CLM-2024-003
+2025-11-21 22:49:25,552 - INFO - Successfully parsed AI response
+2025-11-21 22:49:26,419 - INFO - Processing complete: ./output/processed_20251121_224926.csv
+2025-11-21 23:02:45,879 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-21 23:02:46,055 - INFO - Google Sheets connection established
+2025-11-21 23:02:50,437 - INFO - Data sheet headers configured
+2025-11-21 23:02:50,437 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-21 23:03:05,624 - INFO - Starting processing: input/sample_data.csv
+2025-11-21 23:03:05,627 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-21 23:03:05,627 - INFO - Using ID column: claim_id
+2025-11-21 23:03:05,627 - INFO - Using text column: note_text (avg length: 454)
+2025-11-21 23:03:05,628 - INFO - Processing 1/3: CLM-2024-001
+2025-11-21 23:03:14,436 - INFO - Successfully parsed AI response
+2025-11-21 23:03:16,309 - INFO - Processing 2/3: CLM-2024-002
+2025-11-21 23:03:20,394 - INFO - Successfully parsed AI response
+2025-11-21 23:03:22,179 - INFO - Processing 3/3: CLM-2024-003
+2025-11-21 23:03:28,468 - INFO - Successfully parsed AI response
+2025-11-21 23:03:29,267 - INFO - Processing complete: ./output/processed_20251121_230329.csv
+2025-11-21 23:26:25,545 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-21 23:26:25,721 - INFO - Google Sheets connection established
+2025-11-21 23:26:32,672 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-21 23:26:32,846 - INFO - Google Sheets connection established
+2025-11-21 23:26:37,084 - INFO - Data sheet headers configured
+2025-11-21 23:26:37,084 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-21 23:26:38,089 - INFO - Starting processing: input/sample_data.csv
+2025-11-21 23:26:38,091 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-21 23:26:38,091 - INFO - Using ID column: claim_id
+2025-11-21 23:26:38,092 - INFO - Using text column: note_text (avg length: 454)
+2025-11-21 23:26:38,092 - INFO - Processing 1/3: CLM-2024-001
+2025-11-21 23:26:44,888 - INFO - Successfully parsed AI response
+2025-11-21 23:26:46,820 - INFO - Processing 2/3: CLM-2024-002
+2025-11-21 23:26:50,060 - INFO - Successfully parsed AI response
+2025-11-21 23:26:51,963 - INFO - Processing 3/3: CLM-2024-003
+2025-11-21 23:27:00,224 - INFO - Successfully parsed AI response
+2025-11-21 23:27:01,155 - INFO - Processing complete: ./output/processed_20251121_232701.csv
+2025-11-22 16:20:50,360 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-22 16:20:50,557 - INFO - Google Sheets connection established
+2025-11-22 16:20:54,600 - INFO - Data sheet headers configured
+2025-11-22 16:20:54,600 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-22 16:20:55,288 - INFO - Starting processing: input/sample_data.csv
+2025-11-22 16:20:55,292 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-22 16:20:55,292 - INFO - Using ID column: claim_id
+2025-11-22 16:20:55,297 - INFO - Using text column: note_text (avg length: 454)
+2025-11-22 16:20:55,298 - INFO - Processing 1/3: CLM-2024-001
+2025-11-22 16:21:02,295 - INFO - Successfully parsed AI response
+2025-11-22 16:21:04,253 - INFO - Processing 2/3: CLM-2024-002
+2025-11-22 16:21:07,749 - INFO - Successfully parsed AI response
+2025-11-22 16:21:09,578 - INFO - Processing 3/3: CLM-2024-003
+2025-11-22 16:21:15,421 - INFO - Successfully parsed AI response
+2025-11-22 16:21:16,323 - INFO - Processing complete: ./output/processed_20251122_162116.csv
+2025-11-22 17:10:21,227 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-22 17:10:21,398 - INFO - Google Sheets connection established
+2025-11-22 17:10:27,027 - INFO - Data sheet headers configured
+2025-11-22 17:10:27,028 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-22 17:10:27,869 - INFO - Starting processing: input/sample_data.csv
+2025-11-22 17:10:27,871 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-22 17:10:27,871 - INFO - Using ID column: claim_id
+2025-11-22 17:10:27,871 - INFO - Using text column: note_text (avg length: 454)
+2025-11-22 17:10:27,872 - INFO - Processing 1/3: CLM-2024-001
+2025-11-22 17:10:36,173 - INFO - Successfully parsed AI response
+2025-11-22 17:10:38,261 - INFO - Processing 2/3: CLM-2024-002
+2025-11-22 17:10:42,699 - INFO - Successfully parsed AI response
+2025-11-22 17:10:45,020 - INFO - Processing 3/3: CLM-2024-003
+2025-11-22 17:10:48,214 - INFO - Successfully parsed AI response
+2025-11-22 17:10:49,589 - INFO - Processing complete: ./output/processed_20251122_171049.csv
+2025-11-22 17:15:11,202 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-22 17:15:11,375 - INFO - Google Sheets connection established
+2025-11-22 17:15:13,794 - INFO - Headers already exist in Data sheet - skipping setup
+2025-11-22 17:15:13,794 - INFO - Found 23 existing columns
+2025-11-22 17:15:13,794 - INFO - Successfully initialized model: gemini-2.0-flash-exp
+2025-11-22 17:15:15,198 - INFO - Starting processing: input/sample_data.csv
+2025-11-22 17:15:15,200 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-22 17:15:15,200 - INFO - Using ID column: claim_id
+2025-11-22 17:15:15,201 - INFO - Using text column: note_text (avg length: 454)
+2025-11-22 17:15:15,201 - INFO - Processing 1/3: CLM-2024-001
+2025-11-22 17:15:16,598 - ERROR - API error (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 43.46331743s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 43
+}
+]
+2025-11-22 17:15:18,797 - ERROR - API error (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 41.266654603s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-11-22 17:15:20,995 - ERROR - API error (attempt 3): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 39.064563293s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 39
+}
+]
+2025-11-22 17:15:22,001 - INFO - Processing 2/3: CLM-2024-002
+2025-11-22 17:15:22,200 - ERROR - API error (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 37.859843631s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-11-22 17:15:24,379 - ERROR - API error (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 35.679715207s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2025-11-22 17:15:26,574 - ERROR - API error (attempt 3): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 33.488456533s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-11-22 17:15:27,577 - INFO - Processing 3/3: CLM-2024-003
+2025-11-22 17:15:27,762 - ERROR - API error (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 32.296798217s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 32
+}
+]
+2025-11-22 17:15:29,957 - ERROR - API error (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 30.102647398s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-11-22 17:15:32,140 - ERROR - API error (attempt 3): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 27.919578176s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2025-11-22 17:15:33,538 - INFO - Batch uploaded 3 rows to Data
+2025-11-22 17:15:33,538 - INFO - Data upload complete - Apps Script will auto-detect schema changes
+2025-11-22 17:15:33,540 - INFO - Processing complete: ./output/processed_20251122_171533.csv
+2025-11-22 17:19:07,379 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-22 17:19:07,550 - INFO - Google Sheets connection established
+2025-11-22 17:19:10,538 - INFO - Headers already exist in Data sheet - skipping setup
+2025-11-22 17:19:10,538 - INFO - Found 23 existing columns
+2025-11-22 17:19:10,538 - INFO - Successfully initialized model: gemini-2.0-flash-exp
+2025-11-22 17:19:21,753 - INFO - Starting processing: input/sample_data.csv
+2025-11-22 17:19:21,754 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-22 17:19:21,754 - INFO - Using ID column: claim_id
+2025-11-22 17:19:21,755 - INFO - Using text column: note_text (avg length: 454)
+2025-11-22 17:19:21,755 - INFO - Processing 1/3: CLM-2024-001
+2025-11-22 17:19:22,635 - ERROR - API error (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 37.424335728s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-11-22 17:21:00,258 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-22 17:21:00,434 - INFO - Google Sheets connection established
+2025-11-22 17:21:03,304 - INFO - Headers already exist in Data sheet - skipping setup
+2025-11-22 17:21:03,304 - INFO - Found 23 existing columns
+2025-11-22 17:21:03,304 - INFO - Successfully initialized model: gemini-2.0-flash-exp
+2025-11-22 17:21:07,094 - INFO - Starting processing: input/sample_data.csv
+2025-11-22 17:21:07,096 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-22 17:21:07,096 - INFO - Using ID column: claim_id
+2025-11-22 17:21:07,096 - INFO - Using text column: note_text (avg length: 454)
+2025-11-22 17:21:07,097 - INFO - Processing 1/3: CLM-2024-001
+2025-11-22 17:21:08,492 - ERROR - API error (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 51.568078028s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2025-11-22 17:22:47,731 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-22 17:22:47,902 - INFO - Google Sheets connection established
+2025-11-22 17:22:50,055 - INFO - Headers already exist in Data sheet - skipping setup
+2025-11-22 17:22:50,055 - INFO - Found 23 existing columns
+2025-11-22 17:22:50,055 - INFO - Successfully initialized model: gemini-1.5-flash
+2025-11-22 17:22:52,020 - INFO - Starting processing: input/sample_data.csv
+2025-11-22 17:22:52,022 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-22 17:22:52,022 - INFO - Using ID column: claim_id
+2025-11-22 17:22:52,022 - INFO - Using text column: note_text (avg length: 454)
+2025-11-22 17:22:52,022 - INFO - Processing 1/3: CLM-2024-001
+2025-11-22 17:22:52,945 - ERROR - API error (attempt 1): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:22:55,134 - ERROR - API error (attempt 2): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:23:50,648 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-22 17:23:50,856 - INFO - Google Sheets connection established
+2025-11-22 17:23:53,373 - INFO - Headers already exist in Data sheet - skipping setup
+2025-11-22 17:23:53,373 - INFO - Found 23 existing columns
+2025-11-22 17:23:53,373 - INFO - Successfully initialized model: gemini-1.5-flash-latest
+2025-11-22 17:23:55,130 - INFO - Starting processing: input/sample_data.csv
+2025-11-22 17:23:55,132 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-22 17:23:55,132 - INFO - Using ID column: claim_id
+2025-11-22 17:23:55,133 - INFO - Using text column: note_text (avg length: 454)
+2025-11-22 17:23:55,133 - INFO - Processing 1/3: CLM-2024-001
+2025-11-22 17:23:56,529 - ERROR - API error (attempt 1): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:23:58,719 - ERROR - API error (attempt 2): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:24:00,907 - ERROR - API error (attempt 3): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:24:01,913 - INFO - Processing 2/3: CLM-2024-002
+2025-11-22 17:24:02,093 - ERROR - API error (attempt 1): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:24:04,273 - ERROR - API error (attempt 2): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:24:06,452 - ERROR - API error (attempt 3): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:24:07,457 - INFO - Processing 3/3: CLM-2024-003
+2025-11-22 17:24:07,634 - ERROR - API error (attempt 1): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:24:09,812 - ERROR - API error (attempt 2): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:24:11,999 - ERROR - API error (attempt 3): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-22 17:24:13,171 - INFO - Batch uploaded 3 rows to Data
+2025-11-22 17:24:13,171 - INFO - Data upload complete - Apps Script will auto-detect schema changes
+2025-11-22 17:24:13,173 - INFO - Processing complete: ./output/processed_20251122_172413.csv
+2025-11-22 17:26:54,141 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-22 17:26:54,318 - INFO - Google Sheets connection established
+2025-11-22 17:26:56,586 - INFO - Headers already exist in Data sheet - skipping setup
+2025-11-22 17:26:56,586 - INFO - Found 23 existing columns
+2025-11-22 17:26:56,586 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-22 17:26:58,134 - INFO - Starting processing: input/sample_data.csv
+2025-11-22 17:26:58,136 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-22 17:26:58,136 - INFO - Using ID column: claim_id
+2025-11-22 17:26:58,136 - INFO - Using text column: note_text (avg length: 454)
+2025-11-22 17:26:58,137 - INFO - Processing 1/3: CLM-2024-001
+2025-11-22 17:27:11,714 - INFO - Successfully parsed AI response with sources
+2025-11-22 17:27:12,720 - INFO - Processing 2/3: CLM-2024-002
+2025-11-22 17:27:20,514 - INFO - Successfully parsed AI response with sources
+2025-11-22 17:27:21,520 - INFO - Processing 3/3: CLM-2024-003
+2025-11-22 17:27:30,546 - INFO - Successfully parsed AI response with sources
+2025-11-22 17:27:31,625 - INFO - Batch uploaded 3 rows to Data
+2025-11-22 17:27:31,626 - INFO - Data upload complete - Apps Script will auto-detect schema changes
+2025-11-22 17:27:31,627 - INFO - Processing complete: ./output/processed_20251122_172731.csv
+2025-11-22 17:40:33,191 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-11-22 17:40:33,365 - INFO - Google Sheets connection established
+2025-11-22 17:40:36,438 - INFO - Headers already exist in Data sheet - skipping setup
+2025-11-22 17:40:36,438 - INFO - Found 37 existing columns
+2025-11-22 17:40:36,438 - INFO - Successfully initialized model: gemini-2.5-flash
+2025-11-22 17:40:37,004 - INFO - Starting processing: input/sample_data.csv
+2025-11-22 17:40:37,005 - INFO - CSV has 3 rows, columns: ['claim_id', 'note_text']
+2025-11-22 17:40:37,005 - INFO - Using ID column: claim_id
+2025-11-22 17:40:37,006 - INFO - Using text column: note_text (avg length: 454)
+2025-11-22 17:40:37,006 - INFO - Processing 1/3: CLM-2024-001
+2025-11-22 17:40:48,152 - INFO - Successfully parsed AI response with sources
+2025-11-22 17:40:49,157 - INFO - Processing 2/3: CLM-2024-002
+2025-11-22 17:40:56,535 - INFO - Successfully parsed AI response with sources
+2025-11-22 17:40:57,536 - INFO - Processing 3/3: CLM-2024-003
+2025-11-22 17:41:05,735 - INFO - Successfully parsed AI response with sources
+2025-11-22 17:41:06,792 - INFO - Batch uploaded 3 rows to Data
+2025-11-22 17:41:06,792 - INFO - Data upload complete - Apps Script will auto-detect schema changes
+2025-11-22 17:41:06,794 - INFO - Processing complete: ./output/processed_20251122_174106.csv

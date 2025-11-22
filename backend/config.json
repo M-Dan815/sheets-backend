@@ -1,0 +1,15 @@
+{
+	"gemini_api_key": "AIzaSyD0IEWxjMuop-QQSP4EAWmn-dlRHQsC-K8",
+	"gemini_model": "gemini-2.5-flash",
+	"google_sheets_enabled": true,
+	"google_credentials_file": "credentials.json",
+	"spreadsheet_id": "1H_lgg_B7G5zpYnPnbPLNZRKwZNXfX1AW1hmHcRfkKgM",
+	"input_folder": "./input",
+	"output_folder": "./output",
+	"processed_folder": "./processed",
+	"errors_folder": "./errors",
+	"max_retries": 3,
+	"retry_delay": 2,
+	"rate_limit_delay": 1,
+	"batch_size": 50
+}
