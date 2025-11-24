@@ -1,0 +1,132 @@
+{
+	"version": "3.0",
+	"last_updated": "2024-01-15",
+	"description": "Clinical Audit System - Shared Schema with Scoring Support",
+	"fields": [
+		"claim_id",
+		"note_preview",
+		"full_note_text",
+		"processing_timestamp",
+		"assigned_to_validator",
+		"diagnosis_codes",
+		"cpt_codes",
+		"medical_necessity",
+		"treatment_goals",
+		"interventions",
+		"progress_noted",
+		"plan_documented",
+		"therapist_signature",
+		"date_of_service",
+		"session_duration",
+		"compliance_issues",
+		"addendum_needed",
+		"addendum_reason",
+		"validator_decision",
+		"validator_notes",
+		"validation_timestamp",
+		"validator_email",
+		"assigned_to_lead",
+		"lead_review_status",
+		"final_addendum",
+		"lead_reviewer",
+		"lead_review_timestamp",
+		"ai_confidence_score",
+		"ai_source_diagnosis_codes",
+		"ai_source_cpt_codes",
+		"ai_source_medical_necessity",
+		"ai_source_treatment_goals",
+		"ai_source_interventions",
+		"ai_source_progress_noted",
+		"ai_source_plan_documented",
+		"ai_source_therapist_signature",
+		"ai_source_date_of_service",
+		"ai_source_session_duration"
+	],
+	"validation_fields": [
+		"diagnosis_codes",
+		"cpt_codes",
+		"medical_necessity",
+		"treatment_goals",
+		"interventions",
+		"progress_noted",
+		"plan_documented",
+		"therapist_signature",
+		"date_of_service",
+		"session_duration"
+	],
+	"validation_field_config": {
+		"diagnosis_codes": {
+			"type": "score",
+			"range": [1, 5],
+			"description": "Quality and accuracy of diagnosis coding (1=Poor, 5=Excellent)"
+		},
+		"cpt_codes": {
+			"type": "binary",
+			"options": ["Pass", "Fail"],
+			"description": "CPT codes present and accurate"
+		},
+		"medical_necessity": {
+			"type": "score",
+			"range": [1, 5],
+			"description": "Medical necessity justification quality (1=Poor, 5=Excellent)"
+		},
+		"treatment_goals": {
+			"type": "score",
+			"range": [1, 5],
+			"description": "Treatment goals clarity and measurability (1=Poor, 5=Excellent)"
+		},
+		"interventions": {
+			"type": "score",
+			"range": [1, 5],
+			"description": "Intervention documentation quality (1=Poor, 5=Excellent)"
+		},
+		"progress_noted": {
+			"type": "binary",
+			"options": ["Yes", "No"],
+			"description": "Progress documentation present"
+		},
+		"plan_documented": {
+			"type": "binary",
+			"options": ["Yes", "No"],
+			"description": "Treatment plan documented"
+		},
+		"therapist_signature": {
+			"type": "binary",
+			"options": ["Present", "Missing"],
+			"description": "Therapist signature present"
+		},
+		"date_of_service": {
+			"type": "binary",
+			"options": ["Present", "Missing"],
+			"description": "Date of service documented"
+		},
+		"session_duration": {
+			"type": "binary",
+			"options": ["Present", "Missing"],
+			"description": "Session duration documented"
+		}
+	},
+	"core_fields": [
+		"claim_id",
+		"note_preview",
+		"full_note_text",
+		"processing_timestamp",
+		"assigned_to_validator",
+		"validator_decision",
+		"validator_notes",
+		"validation_timestamp",
+		"validator_email",
+		"assigned_to_lead",
+		"lead_review_status",
+		"final_addendum",
+		"lead_reviewer",
+		"lead_review_timestamp"
+	],
+	"scoring_legend": {
+		"1": "Poor - Major issues, requires significant correction",
+		"2": "Below Average - Notable deficiencies, needs improvement",
+		"3": "Average - Meets minimum requirements, minor issues",
+		"4": "Good - Well documented, minor improvements possible",
+		"5": "Excellent - Comprehensive and accurate documentation"
+	}
+}
